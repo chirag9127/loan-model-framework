@@ -18,3 +18,14 @@ To get started with FELA, follow these steps:
 - Clone the repository: git clone https://github.com/chirag9127/loan-model-framework.git
 - Install the required dependencies: pip install -r requirements.txt
 - Run the following command to play around with the example datasets: `python loan_prediction_framework.py --training_path 'data/dataset_3/loan-train.csv' --test_path 'data/dataset_3/loan-test.csv' --categorical_features "Gender,Married,Dependents,Education,Self_Employed,Property_Area" --protected_field "Property_Area" --privileged_field "Urban" --id_columns "Loan_ID" --demographic_fields "Gender,Married,Education,Property_Area" --gender_field "Gender" --neighborhood_field "Property_Area" --education_field "Education" --target "Loan_Status"`
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+Thanks to Prof. Ur on an amazing class and thanks to my wife for putting up with me while I worked on this.
+
+## Contact
+For any questions or inquiries, please contact us at cmahapat@chicagobooth.edu
+
+Happy fair and explainable loan approvals with FELA!
