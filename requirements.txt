@@ -1,0 +1,7 @@
+ipython==8.13.2
+jupyter==1.0.0
+matplotlib==3.7.1
+numpy==1.22.2
+pandas==1.4.1
+dalex
+shapely==2.0.1
